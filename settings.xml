@@ -4,6 +4,9 @@
     <profiles>
         <profile>
             <id>development</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
             <properties>
                 <netbeans.installation>/home/gitpod/netbeans</netbeans.installation>
                 <netbeans.userdir>/home/gitpod/netbeans.userdir</netbeans.userdir>
